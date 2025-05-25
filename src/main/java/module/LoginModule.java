@@ -1,9 +1,10 @@
 package module;
+import org.junit.Assert;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
 import pageobject.LoginPageObject;
-import org.junit.Assert;
 public class LoginModule {
 	
 	WebDriver driver;
